@@ -27,8 +27,9 @@ int main()
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
     glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);
+	glfwWindowHint(GLFW_TRANSPARENT_FRAMEBUFFER,GL_TRUE);
 
-    // Create a GLFWwindow object that we can use for GLFW's functions
+	// Create a GLFWwindow object that we can use for GLFW's functions
     GLFWwindow* window = glfwCreateWindow(WIDTH, HEIGHT, "LearnOpenGL", nullptr, nullptr);
     if (window == nullptr)
     {
@@ -62,8 +63,8 @@ int main()
 
         // Render
         // Clear the colorbuffer
-        glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
-        glClear(GL_COLOR_BUFFER_BIT);
+        glClearColor(0.2f, 0.3f, 0.3f, 0.2f); //状态设置函数
+        glClear(GL_COLOR_BUFFER_BIT); // 状态应用函数
 
         // Swap the screen buffers
         glfwSwapBuffers(window);
