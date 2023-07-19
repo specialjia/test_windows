@@ -144,8 +144,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="learn1.cpp" />
     <ClCompile Include="三角形.cpp" />
     <ClCompile Include="创建窗口.cpp" />
+    <ClCompile Include="图片转纹理.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

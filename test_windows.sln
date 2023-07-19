@@ -89,6 +89,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "线程池", "线程池\线�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenGL", "OpenGL\OpenGL.vcxproj", "{51990945-6D9F-48D5-A486-13CA0202DB4A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinDbg", "WinDbg\WinDbg.vcxproj", "{07E9339C-696E-4263-B6F3-D8170ABD88FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -442,6 +444,14 @@ Global
 		{51990945-6D9F-48D5-A486-13CA0202DB4A}.Release|x64.Build.0 = Release|x64
 		{51990945-6D9F-48D5-A486-13CA0202DB4A}.Release|x86.ActiveCfg = Release|Win32
 		{51990945-6D9F-48D5-A486-13CA0202DB4A}.Release|x86.Build.0 = Release|Win32
+		{07E9339C-696E-4263-B6F3-D8170ABD88FE}.Debug|x64.ActiveCfg = Debug|x64
+		{07E9339C-696E-4263-B6F3-D8170ABD88FE}.Debug|x64.Build.0 = Debug|x64
+		{07E9339C-696E-4263-B6F3-D8170ABD88FE}.Debug|x86.ActiveCfg = Debug|Win32
+		{07E9339C-696E-4263-B6F3-D8170ABD88FE}.Debug|x86.Build.0 = Debug|Win32
+		{07E9339C-696E-4263-B6F3-D8170ABD88FE}.Release|x64.ActiveCfg = Release|x64
+		{07E9339C-696E-4263-B6F3-D8170ABD88FE}.Release|x64.Build.0 = Release|x64
+		{07E9339C-696E-4263-B6F3-D8170ABD88FE}.Release|x86.ActiveCfg = Release|Win32
+		{07E9339C-696E-4263-B6F3-D8170ABD88FE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
